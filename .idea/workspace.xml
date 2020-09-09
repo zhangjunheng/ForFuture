@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a902a6a-b566-478e-99d4-3b032d74eedd" name="Default Changelist" comment="update gitignore and README.md">
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599667897819</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update gitignore and README.md">
+      <created>1599668627135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599668627135</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update gitignore and README.md">
+      <created>1599668765434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599668765434</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -129,18 +145,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="update gitignore and README.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="339" y="52" key="CommitChangelistDialog2" timestamp="1599668627021">
+    <state x="339" y="52" key="CommitChangelistDialog2" timestamp="1599668827676">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="339" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599668627021" />
+    <state x="339" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599668827676" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1599668102579">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599668102579" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1599668634273">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1599668771116">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599668634273" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599668771116" />
     <state x="500" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599667295785">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
