@@ -2,6 +2,18 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
+def getSelfDefinedVersion(type) {//编译不过需要配置git环境变量
+    Process process = "git rev-list --count HEAD".execute()//git提交数
+    process.waitFor()
+    int commits = process.getText().toInteger()
+
+    if ("code" == type) {
+        commits
+    } else if ("name" == type) {
+        "1.1.$commits"
+    }
+}
+
 android {
     compileSdkVersion 30
 
@@ -9,8 +21,8 @@ android {
         applicationId "com.zjh.forfuture"
         minSdkVersion 15
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        versionCode getSelfDefinedVersion("code")
+        versionName getSelfDefinedVersion("name")
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
