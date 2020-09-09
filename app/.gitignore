@@ -1,10 +1,1 @@
 /build
-*.xml
-.gradle
-.idea/*
-/local.properties
-.DS_Store
-/captures
-!.idea/copyright
-.externalNativeBuild
-ktlint
